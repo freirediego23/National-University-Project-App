@@ -4,27 +4,18 @@
     ViewData["Title"] = "Student Body Statistics";
 }
 
-<h2>Student Body Statistics</h2>
+<h2>About Us</h2>
 
-<table>
-    <tr>
-        <th>
-            Enrollment Date
-        </th>
-        <th>
-            Students
-        </th>
-    </tr>
+<p>Since 1980, we are devoted to provide high quality<br /> education to our students
+    and prepare a generation<br /> capable of leadership and service.
+    </p>
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.EnrollmentDate)
-            </td>
-            <td>
-                @item.StudentCount
-            </td>
-        </tr>
-    }
-</table>
+<h3>Let's talk</h3>
+<p>If you need assitance, you may contact us with our questions at the following address:</p>
+
+<ul>
+    <li>25th Park Avenue entering the Northwest Colony</li>
+    <li>Phone: 223 - 225125783</li>
+    <li>nationaluniv@outook.es</li>
+    <li>Diego Freire - Representative</li>
+</ul>
