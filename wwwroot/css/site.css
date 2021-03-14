@@ -34,7 +34,7 @@ a {
     background-size: cover;
     background-image: url("../img/university1.jpg");
     height: 600px;
-    opacity:1;
+    
     background-repeat: no-repeat;
     width: 100%;
     max-width: 100%;
@@ -48,6 +48,7 @@ a {
     top: 340px;
     right: 520px;
     text-align: center;
+    opacity: 0.9;
     width: 550px;
 }
 
@@ -62,6 +63,37 @@ a {
         margin-top:100px;
         margin-bottom: 100px;
     }
+
+    .welcome p {
+        font-size: 18px;
+    }
+
+.midcontainer {
+    background-color: #f9f3f3;
+    padding-left:30px;
+    padding-right: 40px;
+}
+
+.botcontainer {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+#eventheader {
+    margin-top:40px;
+}
+
+hr {
+    background-color: #046582;
+    margin-right: 95%;
+    width: 5%;
+}
+
+nav.navbar {
+    color: white;
+    background-color: #b8b5ff;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
